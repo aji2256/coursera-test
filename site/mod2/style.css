@@ -1,6 +1,6 @@
 
 body{
-    background-color: pink;
+    background-color: #ffffff;
     padding: 10px;
     font-family:  'Roboto', sans-serif;
 }
@@ -23,16 +23,13 @@ body{
     display: flex;
 }
 .sec1, .sec2, .sec3{
-    border:1px solid transparent;
+    border: 2px solid;
+    border-color: black;
     border-radius: 10px;
     flex-basis: 33%;
-    background-color: cyan(189, 182, 182);
+
     margin: 20px;
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-    box-shadow: 0 1px 1px rgba(0,0,0,0.08),
-                0 2px 2px rgba(0,0,0,0.12),
-                0 4px 4px rgba(0,0,0,0.16),
-                0 8px 8px rgba(0,0,0,0.20);
+    background-color:#e233;
     padding: 12px;
     min-height: 200px;
 
@@ -44,9 +41,10 @@ body{
     font-weight: normal;
     margin-left: auto;
     text-align: center;
-    background-color:rgb(221, 181, 181);
+    background-color: cyan;
     padding: 5px;
-    border: 1px solid transparent;
+     border: 2px solid;
+    border-color: black;
     border-radius: 10px;
     width: 130px;
 }
@@ -83,6 +81,7 @@ body{
         display: flex;
         flex-direction: column;
         padding: 0px;
+
     }
 
     .sec1, .sec2, .sec3{
@@ -94,7 +93,7 @@ body{
     }
 
     .container p{
-        font-size: 10px;
+        font-size: 20px;
     }
 
 }
